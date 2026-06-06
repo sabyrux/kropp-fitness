@@ -1,16 +1,16 @@
-# Kropp
+# 🏋️ Kropp
 
 [![Kropp Preview](./assets/images/preview.png)](https://sabyrux.github.io/kropp-fitness/)
 
 A landing page for the Kropp fitness club built to practice modern HTML and CSS development techniques and showcase front-end layout skills.
 
-## Technologies
+## 🚀 Technologies
 
 - HTML5
 - CSS3
 - Figma
 
-## Features
+## ✨ Features
 
 - Semantic HTML markup
 - Responsive design
@@ -18,7 +18,7 @@ A landing page for the Kropp fitness club built to practice modern HTML and CSS 
 - Optimized WOFF2 fonts
 - Clean and maintainable project structure
 
-## Project Structure
+## 📁 Project Structure
 
 ```text
 assets/
@@ -35,12 +35,12 @@ styles/
 index.html
 ```
 
-## Getting Started
+## 🛠️ Getting Started
 
 No installation or build process is required.
 
 Simply open `index.html` in your browser.
 
-## Purpose
+## 🎯 Purpose
 
 This project was created to improve HTML and CSS skills, practice responsive and semantic layout techniques, and demonstrate front-end development fundamentals.
