@@ -64,12 +64,18 @@
   font-size: 2.8em;
   line-height: 1;
   color: transparent;
-  -webkit-text-stroke: 1px var(--color-light-gray);
-  text-stroke: 1px var(--color-light-gray);
+  -webkit-text-stroke: 1px var(--color-dark-gray);
+  text-stroke: 1px var(--color-dark-gray);
 }
 
 .backdrop-title.centered::after {
   top: -0.25em;
   left: 50%;
   translate: -50% 0;
+}
+
+@media (max-width: 767px) {
+  .section-description {
+    font-size: 16px;
+  }
 }

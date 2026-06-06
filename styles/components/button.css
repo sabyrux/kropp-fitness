@@ -21,11 +21,6 @@
   border-color: currentColor;
 }
 
-.button:active {
-  background-color: var(--color-dark-gray);
-  border-color: var(--color-dark-gray);
-}
-
 .button.transparent {
   position: relative;
   height: var(--input-height);
@@ -45,11 +40,23 @@
   background: url('../../assets/icons/arrows/arrow-top-right.svg') center/70% no-repeat;
   border: var(--border);
   border-radius: 50%;
+  transition-duration: var(--transition-duration);
 }
 
 .button.transparent:hover {
   color: var(--color-dark);
-  background-color: var(--color-light-gray);
+  background-color: var(--color-light);
+}
+
+.button.transparent:hover::after {
+  border-color: transparent;
+  filter: invert(1);
+  rotate: 45deg;
+}
+
+.button:active,
+.button.transparent:active {
+  scale: 0.95;
 }
 
 @media (max-width: 767px) {
